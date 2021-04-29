@@ -10,7 +10,7 @@ def fibonacci(number):
 # the number of terms of the fibonacci sequence that are wanted
 nth_term = 20
 
-print("Fibonacci sequence: ")
+print("Fibonacci sequence: ", end ="")
 # setting a range from the first term to the nth_term 
 for i in range(nth_term):
     # printing the answers. The "end" parameter appends space 
